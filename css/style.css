@@ -5,7 +5,7 @@ body, html{
   font-family:"Lato", sans-serif;
   font-weight:400;
   line-height:1.8em;
-  color:rgb(43, 41, 41);
+  color:black;
 }
 
 .navbar {
@@ -29,6 +29,7 @@ body, html{
 .navbar h1 {
 float: left;
 text-transform: uppercase;
+color: black;
 }
 
 
@@ -58,7 +59,7 @@ text-transform: uppercase;
 
 .greyText
 {
-    color: rgb(43, 41, 41);
+    color: black;
 }
 
 .pimg1, .pimg2, .pimg3{
