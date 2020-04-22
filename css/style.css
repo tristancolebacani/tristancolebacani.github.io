@@ -8,6 +8,54 @@ body, html{
   color:#666;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: right;
+  font-family: 'Inconsolata', monospace;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+} 
+
+.navbar h1 {
+float: left;
+}
+
+
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #666;
+  color: white;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #03989e;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+  display: none;
+}
+
+.tealText
+{
+    color: #03989e;
+}
+
 .pimg1, .pimg2, .pimg3{
   position:relative;
   opacity:0.70;
