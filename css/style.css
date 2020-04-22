@@ -29,6 +29,7 @@ body, html{
 
 .navbar h1 {
 float: left;
+text-transform: uppercase;
 }
 
 
