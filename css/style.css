@@ -56,6 +56,11 @@ text-transform: uppercase;
     color: #03989e;
 }
 
+.greyText
+{
+    color: #666;
+}
+
 .pimg1, .pimg2, .pimg3{
   position:relative;
   opacity:0.70;
