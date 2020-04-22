@@ -19,7 +19,6 @@ body, html{
 /* Style the navigation bar links */
 .navbar a {
   float: right;
-  font-family: 'Inconsolata', monospace;
   display: block;
   color: black;
   text-align: center;
