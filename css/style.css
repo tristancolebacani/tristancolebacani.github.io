@@ -23,7 +23,7 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('../img/image1.jpg');
+ background-color: #ddd;
   min-height:100%;
 }
 
