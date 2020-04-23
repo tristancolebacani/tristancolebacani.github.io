@@ -133,3 +133,9 @@ color: black;
     background-attachment:scroll;
   }
 }
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
