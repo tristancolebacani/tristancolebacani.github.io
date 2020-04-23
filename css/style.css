@@ -117,7 +117,6 @@ color: black;
   text-align:center;
   font-size: xx-large;
   color:#03989e;
-  font-size:27px;
   letter-spacing:8px;
   text-transform:uppercase;
 }
@@ -125,7 +124,7 @@ color: black;
 .ptext .border{
   background-color:#03989e;
   color:#fff;
-  padding:20px;
+  padding:30px;
 }
 
 .ptext .border.trans{
