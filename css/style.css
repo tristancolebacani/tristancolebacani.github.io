@@ -12,6 +12,10 @@ h2 {
   font-size: large;
 }
 
+ html p {
+  font-size: medium;
+}
+
 .navbar {
   overflow: hidden;
   background-color: white;
