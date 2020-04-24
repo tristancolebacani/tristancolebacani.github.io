@@ -9,11 +9,11 @@ body, html{
 }
 
 html h2 {
-  font-size: large;
+  font-size: 300%;
 }
 
  html p {
-  font-size: medium;
+  font-size: 160%;
 }
 
 .navbar {
