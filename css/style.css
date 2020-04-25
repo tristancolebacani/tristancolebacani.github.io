@@ -90,7 +90,8 @@ color: black;
 }
 
 .pimg2{
-  background-image:url('../img/ezgif-1-d23108ba2da6.jpg');
+ /* background-image:url('../img/ezgif-1-d23108ba2da6.jpg'); */
+ background-color:#03989e ;
   min-height:400px;
 }
 
