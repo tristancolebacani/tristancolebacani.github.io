@@ -199,6 +199,9 @@ color: black;
   }
 
 }
+img {
+  border-radius:50%;
+}
 
 @media(max-width:568px){
   .pimg1, .pimg2, .pimg3{
