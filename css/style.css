@@ -161,17 +161,17 @@ color: black;
 
 .scrolldown span:nth-child(1)
 {
-  transform: translateX(-15px, -15px);
+  transform: translate(-15px, -15px);
 }
 
 .scrolldown span:nth-child(2)
 {
-  transform: translateX(0, 0);
+  transform: translate(0, 0);
 }
 
 .scrolldown span:nth-child(3)
 {
-  transform: translateX(15px, 15px);
+  transform: translate(15px, 15px);
 }
 
 @media(max-width:568px){
