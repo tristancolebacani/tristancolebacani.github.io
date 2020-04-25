@@ -157,8 +157,21 @@ color: black;
   border-bottom: 2px solid #03989e;
   border-right: 2px solid #03989e;
   animation: animate 1.5s linear infinite;
+}
 
+.scrolldown span:nth-child(1)
+{
+  transform: translateX(-15px, -15px);
+}
 
+.scrolldown span:nth-child(2)
+{
+  transform: translateX(0, 0);
+}
+
+.scrolldown span:nth-child(3)
+{
+  transform: translateX(15px, 15px);
 }
 
 @media(max-width:568px){
