@@ -126,6 +126,18 @@ color: black;
   text-transform:uppercase;
 }
 
+.ptext2{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  vertical-align: top;
+  font-size: xx-large;
+  color:#03989e;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
 .ptext .border{
   background-color:#03989e;
   color:#fff;
@@ -219,7 +231,7 @@ img {
   .pimg1, .pimg2, .pimg3{
     background-attachment:scroll;
   }
-  .ptext
+  .ptext, .ptext2
   {
     font-size: large;
   }
