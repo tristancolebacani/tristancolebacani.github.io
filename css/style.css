@@ -207,8 +207,8 @@ img {
 
 
 @media screen and (max-width: 700px) {
-  .navbar a{
-    float: none;
+  .navbar h1{
+    float: center;
     width: 100%;
   }
 
