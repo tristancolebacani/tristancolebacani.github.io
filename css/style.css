@@ -204,23 +204,14 @@ img {
   border-radius:50%;
 }
 
-@media screen and (max-width: 700px) {
-  .navbar a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .navbar a.icon {
-    float: right;
-    display: block;
-  }
-}
+
+
 @media screen and (max-width: 400px) {
   .navbar a{
     float: none;
     width: 100%;
   }
-  .navbar h1{
-    visibility: hidden;
-  }
+
   .pimg1, .pimg2, .pimg3{
     background-attachment:scroll;
   }
