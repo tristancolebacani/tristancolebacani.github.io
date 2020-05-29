@@ -207,6 +207,9 @@ img {
 
 
 @media screen and (max-width: 700px) {
+  h2 {
+    font-size: 200%;
+  }
   .navbar {
     visibility: hidden;
     float: center;
