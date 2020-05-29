@@ -209,9 +209,12 @@ img {
 
 }
 @media screen and (max-width: 400px) {
-  .navbar a, h1{
+  .navbar a{
     float: none;
     width: 100%;
+  }
+  .navbar h1{
+    visibility: hidden;
   }
   .pimg1, .pimg2, .pimg3{
     background-attachment:scroll;
