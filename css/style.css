@@ -137,7 +137,11 @@ color: black;
   letter-spacing:8px;
   text-transform:uppercase;
 }
-
+.ptext2 .border{
+  background-color:#03989e;
+  color:#fff;
+  padding:30px;
+}
 .ptext .border{
   background-color:#03989e;
   color:#fff;
