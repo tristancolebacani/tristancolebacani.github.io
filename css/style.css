@@ -12,6 +12,10 @@ html h2 {
   font-size: 300%;
 }
 
+html h3 {
+  font-size: 200%;
+}
+
  html p {
   font-size: 160%;
 }
@@ -225,6 +229,10 @@ img {
 @media screen and (max-width: 700px) {
   html h2 {
     font-size: 180%;
+  }
+
+  html h3 {
+    font-size: 150%;
   }
   .navbar {
     visibility: hidden;
