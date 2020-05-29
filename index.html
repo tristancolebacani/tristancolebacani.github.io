@@ -9,11 +9,12 @@
 </head>
 <body>
 
-  <div class="navbar">
+  <div class="navbar" id = "myTopnav">
     <h1> tristan <span class="tealText">cole</span> bacani </h1>
     <a href="#" class="active">Conact</a>
     <a href="#">Portfolio</a>
     <a href="#">Who Is She?</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
 
   <div class="pimg1">
@@ -76,6 +77,17 @@
         Contact Me
       </span>
     </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+      </script>
+      
   </div>
 </body>
 </html>
