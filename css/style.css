@@ -204,9 +204,14 @@ img {
   border-radius:50%;
 }
 
-@media(max-width:568px){
-
-
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
 }
 @media screen and (max-width: 400px) {
   .navbar a{
